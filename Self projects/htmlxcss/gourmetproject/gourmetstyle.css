@@ -1,0 +1,254 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap'); */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: rgba(210, 210, 228, 0.648);
+    height: 20px;
+    
+    
+} 
+
+body {
+    height: 100vh;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body_section {
+    word-wrap: break-word;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    display: inline-flex;
+    padding-top: 100px;
+    height: 50vh;
+    margin: 10px 200px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(210, 210, 228, 0.648);
+    height: 30px;
+    position: fixed;
+    width: 100vw;
+
+    
+}
+.logo {
+    font-family: "Cutive Mono", monospace;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.click_links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 20px;
+    font-weight: bold;
+    color: rgb(21, 20, 20);
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+.click_links :hover {
+    color: rgb(107, 82, 41);
+    /* background-color: rgba(68, 77, 77, 0.272); */
+}
+.click_link {
+    margin-right: 20px;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+
+
+.hero_section {
+    /* height: 90vh;
+    background-color: rgb(214, 227, 151); */
+    background-image: url(../gourmetImages/hamburger.jpg);
+    height: 120vh;
+    max-width: 100%;
+    display: flex;
+    
+
+    
+}
+
+.text {
+    /* display: flex; */
+    align-content: end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+.text_color {
+    color: rgb(4, 107, 44);
+    font-weight: 300;
+    font-size: large;
+    font-family: monospace;
+    letter-spacing: 3px;
+
+}
+
+/* .middle_section{
+    display: inline-flex;
+    padding-top: 100px;
+    height: 50vh;
+
+} */
+
+.middle_section {
+    box-sizing: content-box;
+    width: 380px;
+    margin-left: 40px;
+
+}
+
+
+.plate_fork {
+    box-sizing: content-box ;
+
+
+}
+.container {
+    width: 380px
+}
+.about_font {
+    font-family: monospace;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-size: x-large;
+    display: flex;
+    margin-bottom: 30px;
+}
+.trad_text {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    font-size: medium;
+}
+
+.catering_paragraph1 {
+    margin-bottom: 20px;
+    font-weight: 600px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    width: 350px;
+
+}
+
+.catering_paragraph2 {
+    color: rgb(59, 57, 57);
+    font-family: 'Times New Roman', Times, serif;
+    width: 350px;
+
+}
+.food_items {
+    padding-left: 20px;
+    padding-bottom: 100px;
+     
+}
+
+hr {
+    color: rgb(160, 163, 166);
+    border-color: rgba(247, 245, 245, 0.685);
+    margin: 70px 200px;
+
+}
+
+.menu_font {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    display: flex;
+    font-size: x-large;
+    justify-content: center;
+}
+.menu_text {
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: monospace;
+}
+input {
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    border-style:none;
+    border-bottom: 1px solid rgb(155, 153, 153);
+    margin-top: 30px;
+
+}
+.down_section {
+    display: inline-flex;
+    padding-top: 130px;
+    flex-direction: row-reverse;
+    box-sizing: content-box;
+    margin: 20px 200px;
+}
+
+.foot_section {
+    margin: 20px 200px;
+    
+} 
+
+.contact_font {
+    font-size: x-large;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+
+.address {
+    font-size: larger;
+    font-weight: 700;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button{
+    display: flex;
+    margin-top: 30px;
+    color: rgb(17, 19, 18);
+    padding: 10px 5px ;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;  */
+    border: none;
+    background-color: rgb(172, 170, 165);
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(179, 179, 183);
+    height: 90px;
+    border-top: 7px solid rgb(215, 218, 217);
+}
